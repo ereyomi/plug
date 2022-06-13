@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <div class="ere-center">
+        <div class="chat-container">
+            <div class="logout-header">
+                <button id="logoutBtn">
+                    logout
+                </button>
+            </div>
+            <div class="our-chats">
+            </div>
+            <div class="chat-but-msg">
+                <input type="text" name="message" id="text-input" placeholder="Type a message">
+                <button type="button" class="send-btn">
+                    send
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./js/socket.io.js"></script> -->
+    <script src="./js/socket.io.min.js"></script>
+    <script src="./js/chat.js"></script>
+</body>
+
+</html>
